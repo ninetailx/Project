@@ -1,0 +1,528 @@
+body{
+     background-color: #FFFFFF);
+     min-height: 100%;
+     background-repeat:no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+   }
+    img{
+      padding: 10px;
+    }
+    /*------------------------------------ logo menu style ------------------------------------*/
+          #logo {
+                        background-image: url('img/h13.jpg');
+                        min-height: 100%;
+                        background-repeat:no-repeat;
+                        background-attachment: fixed;
+                        background-position: center;
+                        background-size: cover;
+                        color: #fff;
+          }
+          #bs-example-navbar-collapse-2 a{
+              padding:15px 10px;
+              color:#000;
+              font-size:15px;
+              -moz-transition: all .5s ease-in;                                 /*ไฟฟอก*/
+              -o-transition: all .5s ease-in;                                   /*โอเปล่า*/
+              -webkit-transition: all .5s ease-in;                              /*โครม ซาฟารี*/
+              transition: all .5s ease-in;
+          }
+          #bs-example-navbar-collapse-2 a:hover{
+              background-color: #778899;
+              color:#fff;
+              font-size:17px;
+          }
+    /*------------------------------------ global Style ------------------------------------*/
+           p {
+                 font-family: 'Athiti', sans-serif;
+                 font-size: 18px;
+           }
+           h1, h2, h3 {
+                 font-family: 'Open Sans', sans-serif;
+           }
+    /*------------------------------------ section1 style ------------------------------------*/
+           #section1 {
+                         background-image: url('img/h10.jpg');
+                         min-height: 100%;
+                      	 background-repeat:no-repeat;
+                         background-attachment: fixed;
+                         background-position: center;
+                         background-size: cover;
+                         color: #000;
+                         margin-top: 0px;
+                         -moz-transition: all .9s ease-in;
+                         -o-transition: all .9s ease-in;
+                         -webkit-transition: all .9s ease-in;
+                         transition: all .9s ease-in;
+          }
+          #section1:hover {
+                        background-image: url('img/54.jpg');
+         }
+          #section1 .text-center {
+                         margin-top: 100px;
+
+          }
+          #section1 .p {
+                         margin-bottom: 100px;
+
+          }
+    /*------------------------------------ section2 style ------------------------------------*/
+          #section2 {
+                         background-color: #ffffff;
+          }
+          #section2 h2,h4,p{
+                         font-family: 'Open Sans', sans-serif;
+          }
+          #section2 header h4{
+                         color: #000;
+                         -moz-transition: all .5s ease-in;
+                         -o-transition: all .5s ease-in;
+                         -webkit-transition: all .5s ease-in;
+                         transition: all .5s ease-in;
+          }
+          #section2 header h4:hover{
+                         color: #708090;
+                         font-size: 21px;
+          }
+          #section2 header h2{
+                         color: #000;
+                         -moz-transition: all .5s ease-in;
+                         -o-transition: all .5s ease-in;
+                         -webkit-transition: all .5s ease-in;
+                         transition: all .5s ease-in;
+          }
+          #section2 header h2:hover{
+                         font-size:40px;
+                         color: #708090;
+          }
+          .img2{
+                    margin-top: 0px;
+                    -moz-transition: all .9s ease-in;
+                    -o-transition: all .9s ease-in;
+                    -webkit-transition: all .9s ease-in;
+                    transition: all .9s ease-in;
+          }
+          .img2:hover{
+                    width: 90px;
+                    margin-top: 8px;
+                    margin-left: 30px;
+          }
+    /*------------------------------------ section3 style ------------------------------------*/
+          #section3 {
+                         background-color:#DCDCDC;
+                         margin-top: 25px;
+          }
+          #section3 h4,p{
+                         font-family: 'Open Sans', sans-serif;
+          }
+          #section3 header h2{
+                         color: #000;
+                         -moz-transition: all .5s ease-in;
+                         -o-transition: all .5s ease-in;
+                         -webkit-transition: all .5s ease-in;
+                         transition: all .5s ease-in;
+          }
+          #section3 header h2:hover{
+                         font-size:40px;
+                         color: #708090;
+          }
+          #section3 header h4{
+                         color: #000;
+                         -moz-transition: all .5s ease-in;
+                         -o-transition: all .5s ease-in;
+                         -webkit-transition: all .5s ease-in;
+                         transition: all .5s ease-in;
+          }
+          #section3 header h4:hover{
+                         font-size:25px;
+                         color: #708090;
+          }
+          .btn-default1 {
+                background-color: #B22222;
+                color: #fff;
+                -moz-transition: all .5s ease-in;
+                -o-transition: all .5s ease-in;
+                -webkit-transition: all .5s ease-in;
+                transition: all .5s ease-in;
+               }
+          .btn-default1:hover {
+                background-color: #333333;
+                color: #fff;
+                font-size: 12px;
+          }
+          .img3 {
+                         width: 160px;
+                         margin-left: 0px;
+                         -moz-transition: all .9s ease-in;
+                         -o-transition: all .9s ease-in;
+                         -webkit-transition: all .9s ease-in;
+                         transition: all .9s ease-in;
+          }
+         .img3:hover {
+                         margin-left: 80px;
+          }
+          .img4 {
+                         width: 160px;
+                         -moz-transition: all .9s ease-in;
+                         -o-transition: all .9s ease-in;
+                         -webkit-transition: all .9s ease-in;
+                         transition: all .9s ease-in;
+          }
+         .img4:hover {
+                         width: 170px;
+          }
+    /*------------------------------------ section4 Contact style ------------------------------------*/
+          #section4 {
+                  background-image: url('img/h22.jpg');
+                  background-color: #ffffff;
+                  min-height: 100%;
+                  background-repeat:no-repeat;
+                  background-attachment: fixed;
+                  background-position: center;
+                  background-size: cover;
+                  margin-top: 25px;
+          }
+          #section4 .contact-header {
+                  color:#fff;
+                  font-size: 20px;
+          }
+          .contact-wrap {
+                  margin-bottom: 50px;
+          }
+          .a1 a:link{
+                color: #CC0000;
+                text-decoration: none;
+          }
+          .a1 a:visited{
+                color: #666666;
+                text-decoration: none;
+          }
+          .a1 a:hover{
+               color: #FF6600;
+               text-decoration: underline;
+               font-size: 20px;
+          }
+          .a1 a:active {
+               color: #FFCC00;
+               text-decoration: underline;
+          }
+ /*------------------------------------ comset style ------------------------------------*/
+      #carousel-example-generic{
+        margin-top: 0px;
+      }
+      .a{
+          padding: 1px;
+      }
+ /*------------------------------------ comset1 style ------------------------------------*/
+            #comset1 {
+                          margin-top: 25px;
+            }
+            #comset1 {
+                 background-color: #F5F5F5;
+                 color: #000;
+                 -moz-transition: all .5s ease-in;
+                 -o-transition: all .5s ease-in;
+                 -webkit-transition: all .5s ease-in;
+                 transition: all .5s ease-in;
+                }
+            #comset1:hover {
+                 background-color:  #F5F5DC;
+                 color: #000;
+                 font-size: 18px;
+            }
+            .port-text {
+                          padding-top: 80px;
+            }
+            .port-img {
+                          position: relative;
+                          padding-top: 80px;
+            }
+/*------------------------------------ comset2 style ------------------------------------*/
+           #comset2 {
+                          margin-top: 25px;
+           }
+           #comset2 {
+                background-color: #F5F5F5;
+                color: #000;
+                -moz-transition: all .5s ease-in;
+                -o-transition: all .5s ease-in;
+                -webkit-transition: all .5s ease-in;
+                transition: all .5s ease-in;
+               }
+           #comset2:hover {
+                background-color: #FFFAF0;
+                color: #000;
+                font-size: 18px;
+           }
+           .port-text {
+                          padding-top: 80px;
+           }
+           .port-img {
+                          position: relative;
+                          padding-top: 80px;
+            }
+/*------------------------------------ comset3 style ------------------------------------*/
+           #comset3 {
+                          margin-top: 25px;
+           }
+           #comset3 {
+                background-color: #F5F5F5;
+                color: #000;
+                -moz-transition: all .5s ease-in;
+                -o-transition: all .5s ease-in;
+                -webkit-transition: all .5s ease-in;
+                transition: all .5s ease-in;
+               }
+            #comset3:hover {
+                background-color: #FFFFF0;
+                color: #000;
+                font-size: 18px;
+           }
+           .port-text {
+                          padding-top: 80px;
+                          padding-bottom: 80px;
+           }
+           .port-img {
+                          position: relative;
+                          padding-top: 80px;
+                          padding-bottom: 80px;
+           }
+/*------------------------------------ comset style ------------------------------------*/
+            #comset {
+                          margin-top: 25px;
+            }
+            #comset {
+                 background-color: #DCDCDC;
+                 -moz-transition: all .5s ease-in;
+                 -o-transition: all .5s ease-in;
+                 -webkit-transition: all .5s ease-in;
+                 transition: all .5s ease-in;
+            }
+            #comset:hover {
+                 background-color:  #BEBEBE;
+            }
+            #comset h4,p{
+                          font-family: 'Open Sans', sans-serif;
+            }
+            .btn-default2 {
+                   background-color: #B22222;
+                   color: #fff;
+                   -moz-transition: all .9s ease-in;
+                   -o-transition: all .9s ease-in;
+                   -webkit-transition: all .9s ease-in;
+                   transition: all .9s ease-in;
+                  }
+             .btn-default2:hover {
+                   background-color: #e50404;
+                   font-size: 19px;
+             }
+             #comset header h2{
+                            color: #000;
+                            -moz-transition: all .5s ease-in;
+                            -o-transition: all .5s ease-in;
+                            -webkit-transition: all .5s ease-in;
+                            transition: all .5s ease-in;
+             }
+             #comset header h2:hover{
+                            font-size:36px;
+                            color: #708090;
+             }
+             #comset header h4{
+                            color: #000;
+                            -moz-transition: all .5s ease-in;
+                            -o-transition: all .5s ease-in;
+                            -webkit-transition: all .5s ease-in;
+                            transition: all .5s ease-in;
+             }
+             #comset header h4:hover{
+                            font-size:22px;
+                            color: #708090;
+             }
+            .img1 {
+                           width: 160px;
+                           -moz-transition: all .5s ease-in;
+                           -o-transition: all .5s ease-in;
+                           -webkit-transition: all .5s ease-in;
+                           transition: all .5s ease-in;
+            }
+           .img1:hover {
+                           width: 170px;
+            }
+            .com{
+                           margin-bottom: 50px;
+            }
+
+
+    #logologin {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top: 0px;
+      width: 100px;
+      height: 100px;
+      transition:width 3s ,height 3s ;
+      -moz-transition:width 3s ,height 3s ;
+      -webkit-transition:width 3s ,height 3s ;
+
+    }
+    #logologin:hover {
+      width: 130px;
+      height: 130px;
+      transition:rotate(180deg);
+      -webkit-transition:rotate(180deg);
+    }
+    #logore {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      top: 0px;
+      right: 20px;
+
+    }
+
+
+    .affix {
+      top: 0;
+      width: 100%;
+    }
+    .affix + .container-fluid {
+      padding-top: 70px;
+    }
+    .nav-justified{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .picus {
+      width: 200px;
+      height: 200px;
+      transition:width 3s ,height 3s ;
+      -moz-transition:width 3s ,height 3s ;
+      -webkit-transition:width 3s ,height 3s ;
+    }
+    .picus:hover {
+      width: 260px;
+      height: 260px;
+      transition:rotate(180deg);
+      -webkit-transition:rotate(180deg);
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    .selectrepare {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin: 5px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      resize: none;
+    }
+
+    #rabit{
+      position: relative;
+    }
+
+
+    #country{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+      color: #cccccf;
+
+    }
+
+    input[type=textx] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+    input[type=textx]:focus {
+      border: 3px solid #555;
+    }
+    input[type=date] {
+      width: 100%;
+      padding: 6px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+
+    input[type=time] {
+      width: 100%;
+      padding: 5.5px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    .thumbnail{
+      margin: 20px;
+    }
+    #picrip{
+      width: 140px;
+      height: 100px;
+      position: relative;
+      top: 75px;
+      z-index: 100;
+    }
+    #picbg{
+      width:  100%;
+      height: 300px;
+    }
+
+    #map{
+      width:  100%;
+      height: 530px;
+    }
+
+    #star-svg {
+      position: relative;
+      bottom:50px;
+      width: 150px;
+      height: 150px;
+    }
+    .icon
+    {
+        width: 50px;
+        height: 50px;
+
+    }
